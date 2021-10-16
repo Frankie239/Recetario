@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recetario", "Recetario.csproj", "{6BF23B39-FFD1-4255-96C7-77259ED044D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes.Dao.mongodb", "Recipe.Dao\Recipes.Dao.mongodb.csproj", "{FBA9725D-DC68-4487-ADA3-10A71F1C5F81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes.Dao.Domain", "Recipe.Dao.Domain\Recipes.Dao.Domain.csproj", "{73872219-9F78-440D-A0EB-E8BAC4CBDDD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes.Domain", "Recipes.Dao\Recipes.Domain.csproj", "{68D52106-B2D3-473D-856E-E61DF4DC4677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BF23B39-FFD1-4255-96C7-77259ED044D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF23B39-FFD1-4255-96C7-77259ED044D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF23B39-FFD1-4255-96C7-77259ED044D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF23B39-FFD1-4255-96C7-77259ED044D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA9725D-DC68-4487-ADA3-10A71F1C5F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA9725D-DC68-4487-ADA3-10A71F1C5F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA9725D-DC68-4487-ADA3-10A71F1C5F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA9725D-DC68-4487-ADA3-10A71F1C5F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73872219-9F78-440D-A0EB-E8BAC4CBDDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73872219-9F78-440D-A0EB-E8BAC4CBDDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73872219-9F78-440D-A0EB-E8BAC4CBDDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73872219-9F78-440D-A0EB-E8BAC4CBDDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D52106-B2D3-473D-856E-E61DF4DC4677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D52106-B2D3-473D-856E-E61DF4DC4677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D52106-B2D3-473D-856E-E61DF4DC4677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D52106-B2D3-473D-856E-E61DF4DC4677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AF34C75-37A8-4D66-9092-EB7B357E85A8}
+	EndGlobalSection
+EndGlobal
